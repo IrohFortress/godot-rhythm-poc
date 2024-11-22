@@ -1,7 +1,7 @@
-res://note.tscn
-res://node_2d.gd
-res://node_2d.tscn
-res://note.gd
 res://scenes/node_2d.tscn
-res://scenes/note.tscn
+res://scenes/arrow.gd
 res://scripts/node_2d.gd
+res://scenes/note.tscn
+res://Arrow.gd
+res://Arrow.tscn
+res://scripts/note.gd

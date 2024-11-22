@@ -8,8 +8,14 @@ var expected = 0
 var state = "active"
 var delta_sum_ = 0.0
 
+var color:Color
+
 func set_speed(new_speed:int):
 	speed = new_speed
+	
+func set_color(value:Color):
+	color = value
+	self_modulate = color
 
 func test_hit(time:float) -> bool:
 	if abs(time - expected) < window:
